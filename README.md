@@ -16,7 +16,9 @@ This project implements a simple Network Intrusion Detection System (NIDS) using
 
 - **Simulated Threats:** The system can be tested by simulating different types of network activities, such as port scanning and DoS attacks.
 
-- **User Interface (Optional):** A simple web-based or command-line interface can be developed for better interaction and visualization of detected threats.
+
+
+
 
 ## Prerequisites
 
@@ -24,5 +26,10 @@ This project implements a simple Network Intrusion Detection System (NIDS) using
 - Scapy
 - Requests (for fetching threat data from AlienVault OTX)
 - Homebrew (for installing additional tools like hping)
+
+## Setup and Usage
+
+
+
 
 
