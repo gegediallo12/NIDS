@@ -16,8 +16,6 @@ This project implements a simple Network Intrusion Detection System (NIDS) using
 
 - **Simulated Threats:** The system can be tested by simulating different types of network activities, such as port scanning and DoS attacks.
 
-- **Anomaly Detection (Optional):** Anomaly detection techniques can be incorporated to identify abnormal patterns in network traffic.
-
 - **User Interface (Optional):** A simple web-based or command-line interface can be developed for better interaction and visualization of detected threats.
 
 ## Prerequisites
