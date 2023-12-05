@@ -28,8 +28,6 @@ The system provides tools and scripts to simulate various types of network activ
 
 
 
-For advanced threat detection, the NIDS can incorporate anomaly detection techniques to identify abnormal patterns in network traffic. Machine learning algorithms can be employed for this purpose.
-
 
 
 ## Prerequisites
@@ -41,12 +39,8 @@ For advanced threat detection, the NIDS can incorporate anomaly detection techni
 
 ## Setup and Usage
 
-1. **Clone the repository:**
 
-   ```bash
-   git clone <repository-url>
 
-## Setup and Usage
 
 
 
