@@ -77,9 +77,38 @@ Schedule regular updates to fetch the latest threat intelligence data and update
 
 If you encounter issues with dependencies, ensure that you have installed the required packages and activated the virtual environment.
 
-## License
+## Code Explanation
 
-This project is licensed under the [MIT License](LICENSE).
+The `NIDS.py` script includes the following key components:
+
+### Signature-Based Detection
+
+The `signature_database` list defines various threat signatures, such as ICMP Echo Reply, ICMP Packets, Malware, DoS, and Port Scan.
+
+### AlienVault OTX Configuration
+
+Configure the AlienVault OTX API key (`otx_api_key`) and pulse URL (`otx_url`) to fetch threat data.
+
+### Traffic Analysis
+
+The `packet_callback` function is called for each captured packet, checking against the defined signatures and logging alerts.
+
+### Fetching Threat Data
+
+The `fetch_threat_data` function fetches threat data from AlienVault OTX using the configured API key and pulse URL.
+
+### Updating Signature Database
+
+The `update_signature_database` function is a placeholder for logic to process threat data and update the signature database.
+
+### Packet Capture
+
+Packet capture is initiated using Scapy's `sniff` function on the 'en0' interface.
+
+---
+
+
+
 
 
 
