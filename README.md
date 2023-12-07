@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project implements a simple Network Intrusion Detection System (NIDS) using Python and Scapy. The NIDS is designed to capture and analyze network packets, detect potential threats based on predefined signatures, and fetch threat intelligence data from AlienVault OTX.
+This project implements a simple Network Intrusion Detection System (NIDS) using Python and Scapy. The NIDS is designed to capture and analyze network packets, detect potential threats based on predefined signatures.
 
 ## Requirements
 
 - Python 3.x
 - Scapy
-- Requests library
+
 
 ## Installation
 
