@@ -59,7 +59,7 @@ This project implements a simple Network Intrusion Detection System (NIDS) using
 ## Configuration
 
 - Signature Database: Edit the `signature_database` list in `NIDS.py` to customize threat signatures.
-- AlienVault OTX: Replace the placeholder API key (`otx_api_key`) and pulse URL (`otx_url`) with your actual OTX API key and pulse URL.
+
 
 ## External Threat Feeds Integration
 
@@ -85,9 +85,7 @@ The `NIDS.py` script includes the following key components:
 
 The `signature_database` list defines various threat signatures, such as ICMP Echo Reply, ICMP Packets, Malware, DoS, and Port Scan.
 
-### AlienVault OTX Configuration
 
-Configure the AlienVault OTX API key (`otx_api_key`) and pulse URL (`otx_url`) to fetch threat data.
 
 ### Traffic Analysis
 
